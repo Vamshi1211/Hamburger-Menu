@@ -1,0 +1,22 @@
+.about-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about-lg-image {
+  width: 100%;
+}
+@media screen and (max-width: 768px) {
+  .about-lg-image {
+    display: none;
+  }
+}
+
+.about-sm-image {
+  width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .about-sm-image {
+    display: none;
+  }
+}
